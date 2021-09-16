@@ -1,3 +1,3 @@
 # Spring Retry
-* Normally using @Retryable and @Recovery in service context is best choice.
-* If need a retry context which use shared object between retries, use RetryListener.
+* Normally using RetryTemplate in service context is best choice.
+* If using Annotation, use RetryListener to access RetryContext if needed.
